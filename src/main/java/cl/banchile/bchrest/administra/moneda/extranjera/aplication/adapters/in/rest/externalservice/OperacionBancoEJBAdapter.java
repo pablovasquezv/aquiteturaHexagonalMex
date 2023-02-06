@@ -18,7 +18,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import lombok.extern.slf4j.Slf4j;
-
+/**
+ * @author Pablo
+ *
+ */
 @Slf4j
 @Service
 public class OperacionBancoEJBAdapter implements OperacionBancoEJBPort {

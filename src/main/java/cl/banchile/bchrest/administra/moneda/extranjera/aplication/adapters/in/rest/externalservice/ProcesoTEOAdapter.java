@@ -17,6 +17,11 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Pablo
+ *
+ */
+
 @Component
 @Log4j2
 public class ProcesoTEOAdapter implements IProcesoTEO  {

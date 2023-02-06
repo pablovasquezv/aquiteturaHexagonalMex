@@ -23,6 +23,11 @@ import cl.banchile.esb.wsdl.canales.ingreso.transferencia.v1.FaultMsg;
 import cl.banchile.framework.lib.core.utils.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * @author Pablo
+ *
+ */
+
 @Slf4j
 @Service
 public class OperacionInstruccionPagoEJBAdapter implements OperacionInstruccionPagoEJBPort {
