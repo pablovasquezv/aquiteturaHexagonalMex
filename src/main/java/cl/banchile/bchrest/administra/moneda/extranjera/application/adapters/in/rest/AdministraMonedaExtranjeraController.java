@@ -1,4 +1,4 @@
-package cl.banchile.bchrest.administra.moneda.extranjera.application.adapters;
+package cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.in.rest;
 
 import javax.validation.Valid;
 

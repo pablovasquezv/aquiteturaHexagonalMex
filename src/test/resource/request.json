@@ -1,0 +1,42 @@
+{
+  "canalOperacion": "PTV.BCO",
+  "canalAtencionTO": {
+    "identificadorCanalAtencion": "1"
+  },
+  "clienteTO": {
+    "rut": "2634691",
+    "subRut": "0"
+  },
+  "ejecutivoConectadoTO": {
+    "rutEmpleado": "13237574",
+    "usuario": "CTORRES"
+  },
+  "ejecutivoOperacionTO": {
+    "rutEmpleado": "13237574"
+  },
+  "fechaOperacionTO": {
+    "fechaIngreso": "2022-05-23",
+    "fechaSolicitud": "2022-05-23"
+  },
+  "idTransaccion": "6943606356469141505",
+  "montoValorizado": "8112.0",
+  "observacion": "pato Test",
+  "tipoOperacionEnum": "COMPRA",
+  "tipoProductoEnum": "MONEDAEXTRANJERA",
+  "unidadesTransadas": "10.0",
+  "codigoOficina": "1000",
+  "monedaPagoTO": {
+    "codigoMoneda": "DOLAR",
+    "codigoIso": "USD"
+  },
+  "monedaCobroTO": {
+    "codigoMoneda": "PESO"
+  },
+  "montoTotalPago": "10.0000",
+  "paridad": "1.0",
+  "precioCompra": "811.2000",
+  "precioMedio": "806.0000",
+  "precioVenta": "800.8000",
+  "montoComisionCalculada": "0.0",
+  "montoComisionRealCalculada": "0.0"
+}

@@ -1,0 +1,41 @@
+server:
+  port: 8160
+
+spring:
+  application:
+    name: test
+    version: test
+    namespace: test
+
+
+logging:
+  level:
+    cl:
+      banchile: INFO
+    com:
+      zaxxer:
+        hikari:
+          HikariConfig: DEBUG
+
+swagger:
+  package: cl.banchile.bchrest.administra.moneda.extranjera
+  title: bchrest-administra-moneda-extranjera
+  description: Servicio que administra las operaciones sobre moneda extranjera para el ingreso de operaciones
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    show-details: always
+
+service:
+  operacion-banco:
+    url: http://balieap01des.domdes01.cl:8080/cl.banchile.go-svc/OperacionBancoEJB?wsdl
+  comprobante:
+    url: http://balieap01des.domdes01.cl:8080/cl.banchile.go-svc/ComprobanteServiceEJB?wsdl
+  transaccion-liquidacion:
+    url: http://balieap01des.domdes01.cl:8080/cl.banchile.liquidaciones.java.eapsrv-svc/TransaccionLiquidacionServiceEjb?wsdl
+  operacion-instruccion:
+    url: http://balifws01des.domdes01.cl:8080/canales/ingreso/transferencia/v1/CanalesIngresoTransferencia?wsdl
