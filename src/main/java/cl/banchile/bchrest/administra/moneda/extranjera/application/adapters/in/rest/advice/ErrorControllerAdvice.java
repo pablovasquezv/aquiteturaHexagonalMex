@@ -1,4 +1,4 @@
-package cl.banchile.bchrest.administra.moneda.extranjera.aplication.adapters.in.rest.advice;
+package cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.in.rest.advice;
 
 import cl.banchile.bchrest.administra.acciones.application.adapters.in.rest.model.ErrorBody;
 import cl.banchile.bchrest.administra.acciones.common.exception.ExternalServiceException;

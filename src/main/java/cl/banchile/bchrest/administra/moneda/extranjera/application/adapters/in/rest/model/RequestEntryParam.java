@@ -1,4 +1,4 @@
-package cl.banchile.bchrest.administra.moneda.extranjera.aplication.adapters.in.rest.model;
+package cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.in.rest.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

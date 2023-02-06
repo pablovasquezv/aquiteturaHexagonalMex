@@ -1,4 +1,4 @@
-package cl.banchile.bchrest.administra.moneda.extranjera.aplication.adapters.in.rest.externalservice;
+package cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.out.externalservice;
 
 import cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.in.rest.model.MonedaResponse;
 import cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.in.rest.model.PddTra;

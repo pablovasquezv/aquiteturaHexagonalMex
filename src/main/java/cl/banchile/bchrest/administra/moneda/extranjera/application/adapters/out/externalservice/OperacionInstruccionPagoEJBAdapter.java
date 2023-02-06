@@ -1,16 +1,16 @@
-package cl.banchile.bchrest.administra.moneda.extranjera.aplication.adapters.in.rest.externalservice;
+package cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.out.externalservice;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.in.rest.model.EstadoOperacionEjbModel;
+import cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.in.rest.model.EstadoOperacionInstruccionModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.in.rest.model.EstadoOperacionEjbModel;
-import cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.in.rest.model.EstadoOperacionInstruccionModel;
 import cl.banchile.bchrest.administra.moneda.extranjera.application.adapters.in.rest.model.OperacionInstruccionModel;
 import cl.banchile.bchrest.administra.moneda.extranjera.common.utils.Utils;
 import cl.banchile.bchrest.administra.moneda.extranjera.domain.ports.out.OperacionInstruccionPagoEJBPort;
